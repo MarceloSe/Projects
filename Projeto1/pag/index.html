@@ -21,24 +21,33 @@
             </article>
             <form action="" method="post">
                 <p>Nome:</p>
-                <label for="nome"><input type="text" name="nome" id="nome" size="45"></label>
+                <label for="nome"><input type="text" name="nome" id="nome" size="45" placeholder="Nome completo"></label>
+
                 <p>Email:</p>
-                <label for="email"><input type="text" name="email" id="email" size="45"></label>
+                <label for="email"><input type="text" name="email" id="email" size="45" placeholder="Seuemail@email.com"></label>
+
                 <p>Celular/Whatsapp:</p>
-                <label for="contato"><input type="text" name="contato" id="contato" size="45"></label>
+                <label for="contato"><input type="text" name="contato" id="contato" size="45" placeholder="(xx) xxxxx-xxxx"></label>
+
                 <p>Meu Objetivo:</p>
-                <label for="objet"><input type="text" name="objet" id="objet" size="45"></label>
+                <label for="objet"><input type="text" name="objet" id="objet" size="45" placeholder="Melhoria de..."></label>
+
                 <p>Solução que possui interesse:</p>
-                <label for="solucao"><input type="text" name="solucao" id="solucao" size="45"></label>
+                <label for="solucao"><input type="text" name="solucao" id="solucao" size="45" placeholder="Estou buscando..."></label>
+
                 <p>Plataforma que tenho interesse:</p>
-                <label for="platform"><input type="text" name="platform" id="platform" size="45"></label>
+                <label for="platform"><input type="text" name="platform" id="platform" size="45" placeholder="Compras, vendas e etc"></label>
+
                 <p>Contenos mais detalhes do que você está buscando:</p>
                 <label for="searching"><textarea name="searching" id="searching" cols="45" rows="10"></textarea></label>
-                <input class="button" type="button" value="Agendar minha consultoria!">
+
+                <input type="submit" id="button-send" class="button" value="Agendar minha consultoria!">
             </form>
     </main>
     <footer> 
         <P>Created by: <a href="https://github.com/MarceloSe" target="_blank">Marcelo Sena</a></P>
     </footer>
+
+    <script src="../back/form.js" defer></script>
 </body>
 </html>
