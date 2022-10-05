@@ -2,75 +2,73 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
+/* (min-width: 320px) and (max-width: 450px) */
 *{
     margin: 0;
     padding: 0;
 }
 html{ 
-    width: 100vw;
+    width: 92vw;
     height: 100vh;
 }
 body{
     background-color: rgb(31, 31, 31);
     color: white;
     font-family: 'Roboto', sans-serif;
+    margin-top: 35px;
 }
-main{
+section {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    width: 290px;
     margin: auto;
-    margin-top: 45px;
-    width: 1030px;
-}
-
-article {
-    width: 500px;
-    margin-right: 25px;
-}
-
-article > p {
-    margin-top: 25px;
-    font-size: 1.3em;
-    font-weight: 300;
-}
-
-form{
-    width: 500px;
 }
 
 h1 {
-    margin: 0 0 25px 0;
-    font-size: 3.5em;
-    font-weight: 600;
+    font-size: 2.2em;
+    line-height: 1.2em;
+    margin-bottom: 30px;
 }
+
+article > p {
+    margin-top: 15px;
+    font-size:clamp(.6em, 1em + .1vw, 1.3em );
+    word-wrap: normal;
+    font-weight: 300;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
 input{
-    width: 400px;
-    height: 30px;
-    margin: 4.5px;
+    width: 280px;
+    height: 20px;
     border-radius: 5px;
 }
-textarea{ 
-    width: 400px;
+textarea{
+    width: 280px;
     border-radius: 5px;
-    margin-left: 4px;
     font-family: 'Roboto', sans-serif;
 }
 .button{
     box-sizing: border-box;
     padding: 8px;
+    height: 35px;
     width: 180px;
-    margin: 25px -85px 0 222px;
     background-color: rgb(209, 21, 59);
     color: white;
     border: 1px solid rgba(0, 0, 0, 0.712);
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     border-top: 1px solid white;
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 a {
     color: white;
