@@ -42,10 +42,12 @@ form {
     margin-top: 30px;
     margin-bottom: 40px;
 }
-
+form > p {
+    margin-top: 10px;
+}
 input{
     width: 280px;
-    height: 20px;
+    height: 30px;
     border-radius: 5px;
 }
 textarea{
