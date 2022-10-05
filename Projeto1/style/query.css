@@ -3,18 +3,146 @@
     
 @media screen and (min-width: 450px) and (max-width: 768px) {
 h1 {
-    font-size: 1.3em;
+    font-size: 3.3em;
+    line-height: 1.1em;
+}
+article > p {
+    font-size:1.3em;
+    font-weight: 300;
 }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1070px) {
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    h1 {
+        font-size: 3.3em;
+        line-height: 1.1em;
+    }
     section {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 300px;
+        width: 600px;
     }
     article > p {
-        font-size:clamp(1.1em, 1em + 0.8vw, 1.3em );
+        font-size:1.3em;
+        font-weight: 300;
     }
+    input{
+        width: 400px;
+        height: 35px;
+        margin: 4.5px;
+        border-radius: 5px;
+    }
+    textarea{ 
+        width: 400px;
+        border-radius: 5px;
+        margin-left: 8px;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1120px) {
+
+    h1 {
+        font-size: 3.3em;
+        line-height: 1.1em;
+    }
+    article{
+        margin-right: 5px;
+    }
+    article > p {
+        font-size:1.3em;
+        font-weight: 300;
+    }
+    section {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 850px;
+    }
+    form{
+        margin-left: 5px;
+    }
+    input{
+        width: 400px;
+        height: 35px;
+        margin: 4.5px;
+        border-radius: 5px;
+    }
+    textarea{ 
+        width: 400px;
+        border-radius: 5px;
+        margin-left: 8px;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+@media screen and (min-width: 1100px) and (max-width: 1400px) {
+    h1 {
+        font-size: 3.3em;
+        line-height: 1.1em;
+    }
+    article{
+        margin-right: 5px;
+    }
+    article > p {
+        font-size:1.3em;
+        font-weight: 300;
+    }
+    section {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 1000px;
+    }
+    form{
+        margin-left: 5px;
+    }
+    input{
+        width: 400px;
+        height: 35px;
+        margin: 4.5px;
+        border-radius: 5px;
+    }
+    textarea{ 
+        width: 400px;
+        border-radius: 5px;
+        margin-left: 8px;
+        font-family: 'Roboto', sans-serif;
+    }
+} 
+@media screen and (min-width: 1400px) {
+    h1 {
+        font-size: 3.3em;
+        line-height: 1.2em;
+    }
+    article{
+        width: 500px;
+        margin-right: 100px;
+    }
+    article > p {
+        font-size:1.3em;
+        font-weight: 300;
+    }
+    section {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 1350px;
+    }
+    form{
+        width: 500px;
+        margin-left: 100px;
+    }
+    input{
+        width: 400px;
+        height: 35px;
+        margin: 4.5px;
+        border-radius: 5px;
+    }
+    textarea{ 
+        width: 400px;
+        border-radius: 5px;
+        margin-left: 8px;
+        font-family: 'Roboto', sans-serif;
+    } 
 }

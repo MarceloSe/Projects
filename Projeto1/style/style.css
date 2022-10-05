@@ -8,8 +8,9 @@
     padding: 0;
 }
 html{ 
-    width: 92vw;
+    width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 body{
     background-color: rgb(31, 31, 31);
@@ -18,11 +19,11 @@ body{
     margin-top: 35px;
 }
 section {
+    margin: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 290px;
-    margin: auto;
 }
 
 h1 {
@@ -54,6 +55,7 @@ textarea{
     width: 280px;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
+    margin-left: 3px;
 }
 .button{
     box-sizing: border-box;
@@ -71,6 +73,7 @@ footer {
     border-top: 1px solid white;
     padding-top: 25px;
     padding-bottom: 25px;
+    
 }
 a {
     color: white;
