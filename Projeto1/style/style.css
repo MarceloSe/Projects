@@ -31,7 +31,8 @@ h1 {
     line-height: 1.2em;
     margin-bottom: 30px;
 }
-article{
+.artigo{
+    width: 93vw;
     margin: auto;
 }
 article > p {
@@ -43,6 +44,7 @@ article > p {
 
 
 .forms {
+    width: 93vw;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -55,12 +57,12 @@ form > p {
     margin-top: 10px;
 }
 input{
-    width: 91vw;
+    width: 90vw;
     height: 30px;
     border-radius: 5px;
 }
 textarea{
-    width: 91vw;
+    width: 90vw;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
     margin-left: 3px;
